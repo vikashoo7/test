@@ -1,19 +1,19 @@
-[STG_ChildGroupA]
-Server10
-Server11
-Server12
+[PROD_ChildGroupA]
+Server19
+Server20
+Server21
 
-[STG_ChildGroupB]
-Server13
-Server14
-Server15
+[PROD_ChildGroupB]
+Server22
+Server23
+Server24 
 
-[STG_ChildGroupC]
-Server16
-Server17
-Server18
+[PROD_ChildGroupC]
+Server25
+Server26
+Server27
 
-[STG:children]
-STG_ChildGroupA
-STG_ChildGroupB
-STG_ChildGroupC
+[PROD:children]
+PROD_ChildGroupA
+PROD_ChildGroupB
+PROD_ChildGroupC
