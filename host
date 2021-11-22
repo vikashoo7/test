@@ -68,7 +68,7 @@ PROD_ChildGroupC
 
 =============================================================================
 
-[ParentGroup:Children]
+[ParentGroup:children]
 DEV
 STG
 PROD
