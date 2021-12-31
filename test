@@ -3,3 +3,12 @@ this is the first file
 Thsi isthe second tag
 
 assiginigng the tag asfter commit
+
+
+        - name: Downloading the Elasticsearch binaries from the Artifactory
+          get_url:
+            url: "https://artifactory.myhost.com:443/artifactory/generic/elasticsearch/{{ elastic_version }}.tar.gz"
+            dest: "{{elastic_install_path }}"
+            mode: 0755
+            headers:
+              X-JFrog-Art-Api: "{{ artifactory_svc_api_key }}"
